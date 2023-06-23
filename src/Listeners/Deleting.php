@@ -3,6 +3,7 @@
 namespace Wildside\Userstamps\Listeners;
 
 use Illuminate\Support\Facades\Auth;
+use Sentry;
 
 class Deleting
 {
@@ -19,7 +20,7 @@ class Deleting
         }
 
         if (is_null($model->{$model->getDeletedByColumn()})) {
-            $model->{$model->getDeletedByColumn()} = Auth::id();
+            $model->{$model->getDeletedByColumn()} = Sentry::getUser()->id;
         }
 
         $dispatcher = $model->getEventDispatcher();
