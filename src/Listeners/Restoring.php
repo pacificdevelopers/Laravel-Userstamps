@@ -1,6 +1,6 @@
 <?php
 
-namespace Wildside\Userstamps\Listeners;
+namespace Pacificinternet\Userstamps\Listeners;
 
 class Restoring
 {

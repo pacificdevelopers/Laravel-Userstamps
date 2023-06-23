@@ -3,17 +3,17 @@
 </p>
 
 <p align="center">
-    <a href="https://travis-ci.com/WildSideUK/Laravel-Userstamps">
-        <img src="https://travis-ci.com/WildSideUK/Laravel-Userstamps.svg" alt="Build Status">
+    <a href="https://travis-ci.com/PacificinternetUK/Laravel-Userstamps">
+        <img src="https://travis-ci.com/PacificinternetUK/Laravel-Userstamps.svg" alt="Build Status">
     </a>
-    <a href="https://packagist.org/packages/wildside/userstamps">
-        <img src="https://poser.pugx.org/wildside/userstamps/d/total.svg" alt="Total Downloads">
+    <a href="https://packagist.org/packages/Pacificinternet/userstamps">
+        <img src="https://poser.pugx.org/Pacificinternet/userstamps/d/total.svg" alt="Total Downloads">
     </a>
-    <a href="https://packagist.org/packages/wildside/userstamps">
-        <img src="https://poser.pugx.org/wildside/userstamps/v/stable.svg" alt="Latest Stable Version">
+    <a href="https://packagist.org/packages/Pacificinternet/userstamps">
+        <img src="https://poser.pugx.org/Pacificinternet/userstamps/v/stable.svg" alt="Latest Stable Version">
     </a>
-    <a href="https://packagist.org/packages/wildside/userstamps">
-        <img src="https://poser.pugx.org/wildside/userstamps/license.svg" alt="License">
+    <a href="https://packagist.org/packages/Pacificinternet/userstamps">
+        <img src="https://poser.pugx.org/Pacificinternet/userstamps/license.svg" alt="License">
     </a>
 </p>
 
@@ -51,7 +51,7 @@ $table->unsignedBigInteger('updated_by')->nullable();
 You can now load the trait within your model, and userstamps will automatically be maintained:
 
 ```php
-use Wildside\Userstamps\Userstamps;
+use Pacificinternet\Userstamps\Userstamps;
 
 class Foo extends Model {
 
@@ -62,7 +62,7 @@ class Foo extends Model {
 Optionally, should you wish to override the names of the `created_by`, `updated_by` or `deleted_by` columns, you can do so by setting the appropriate class constants on your model. Ensure you match these column names in your migration.
 
 ```php
-use Wildside\Userstamps\Userstamps;
+use Pacificinternet\Userstamps\Userstamps;
 
 class Foo extends Model {
 
@@ -136,11 +136,11 @@ $model->where('name', 'foo')->updateWithUserstamps([
 
 ## Sponsors
 
-<a href="https://wildside.uk">
-    <img src="https://wildside.uk/images/wildside-logo.svg" height="50">
+<a href="https://Pacificinternet.uk">
+    <img src="https://Pacificinternet.uk/images/Pacificinternet-logo.svg" height="50">
 </a>
 
-This open-source software is developed and maintained by <a href="https://wildside.uk">WILDSIDE</a>.
+This open-source software is developed and maintained by <a href="https://Pacificinternet.uk">Pacificinternet</a>.
 
 ## License
 

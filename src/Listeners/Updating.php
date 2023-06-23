@@ -1,6 +1,6 @@
 <?php
 
-namespace Wildside\Userstamps\Listeners;
+namespace Pacificinternet\Userstamps\Listeners;
 
 use Illuminate\Support\Facades\Auth;
 use Sentry;
